@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B39564D3-FF1B-9C3A-FC5F-EA678BF7F4BA}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_3;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStreamQueue.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RpcIndexComponent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonAnimatorView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbody2DView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbodyView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\HighlightOwnedGameObj.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomRoundTimer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnAwakeUsePhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnJoinedInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSimple.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSyncer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTeams.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\QuitOnEscapeOrBack.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ServerTime.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowInfoOfPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Scripts\GUIs\CameraFacingBillboard.cs" />
+     <Compile Include="Assets\Scripts\GUIs\Chat.cs" />
+     <Compile Include="Assets\Scripts\GUIs\HUD.cs" />
+     <Compile Include="Assets\Scripts\GUIs\MoveIcon.cs" />
+     <Compile Include="Assets\Scripts\GUIs\MoveToolTip.cs" />
+     <Compile Include="Assets\Scripts\GUIs\PartyMemberSlot.cs" />
+     <Compile Include="Assets\Scripts\GUIs\PartyRequestPanel.cs" />
+     <Compile Include="Assets\Scripts\GUIs\PlayerPokemonPortrait.cs" />
+     <Compile Include="Assets\Scripts\GUIs\StatusEffectIcon.cs" />
+     <Compile Include="Assets\Scripts\GUIs\TargetPokemonPortrait.cs" />
+     <Compile Include="Assets\Scripts\GUIs\TrackMousePosition.cs" />
+     <Compile Include="Assets\Scripts\GUIs\_GUIHealthBar.cs" />
+     <Compile Include="Assets\Scripts\GUIs\_LogIn.cs" />
+     <Compile Include="Assets\Scripts\GUIs\_MainMenuGUI.cs" />
+     <Compile Include="Assets\Scripts\GUIs\_SceneFadeInOut.cs" />
+     <Compile Include="Assets\Scripts\Items\EmptyPokeBall.cs" />
+     <Compile Include="Assets\Scripts\Items\NetworkCaptureOrb.cs" />
+     <Compile Include="Assets\Scripts\Items\NetworkEmptyPokeBall.cs" />
+     <Compile Include="Assets\Scripts\Items\NetworkPokemonBall.cs" />
+     <Compile Include="Assets\Scripts\Items\_Item.cs" />
+     <Compile Include="Assets\Scripts\Items\_ItemDatabase.cs" />
+     <Compile Include="Assets\Scripts\Items\_Medicine.cs" />
+     <Compile Include="Assets\Scripts\Items\_PokeBall.cs" />
+     <Compile Include="Assets\Scripts\Items\_PotionEther.cs" />
+     <Compile Include="Assets\Scripts\Mewtwo\MewtwoAI.cs" />
+     <Compile Include="Assets\Scripts\Mewtwo\MewtwoPhaseFour.cs" />
+     <Compile Include="Assets\Scripts\Mewtwo\MewtwoPhaseOne.cs" />
+     <Compile Include="Assets\Scripts\Mewtwo\MewtwoPhaseThree.cs" />
+     <Compile Include="Assets\Scripts\Mewtwo\MewtwoPhaseTwo.cs" />
+     <Compile Include="Assets\Scripts\Moves\Air_Slash.cs" />
+     <Compile Include="Assets\Scripts\Moves\Amnesia.cs" />
+     <Compile Include="Assets\Scripts\Moves\Aqua_Tail.cs" />
+     <Compile Include="Assets\Scripts\Moves\Aura_Sphere.cs" />
+     <Compile Include="Assets\Scripts\Moves\Barrier.cs" />
+     <Compile Include="Assets\Scripts\Moves\Bite.cs" />
+     <Compile Include="Assets\Scripts\Moves\Bubble.cs" />
+     <Compile Include="Assets\Scripts\Moves\Bug_Bite.cs" />
+     <Compile Include="Assets\Scripts\Moves\Confusion.cs" />
+     <Compile Include="Assets\Scripts\Moves\Disable.cs" />
+     <Compile Include="Assets\Scripts\Moves\Double_Edge.cs" />
+     <Compile Include="Assets\Scripts\Moves\Dragon_Claw.cs" />
+     <Compile Include="Assets\Scripts\Moves\Dragon_Rage.cs" />
+     <Compile Include="Assets\Scripts\Moves\Ember.cs" />
+     <Compile Include="Assets\Scripts\Moves\Fire_Fang.cs" />
+     <Compile Include="Assets\Scripts\Moves\Fire_Spin.cs" />
+     <Compile Include="Assets\Scripts\Moves\Flame_Burst.cs" />
+     <Compile Include="Assets\Scripts\Moves\Flamethrower.cs" />
+     <Compile Include="Assets\Scripts\Moves\Flare_Blitz.cs" />
+     <Compile Include="Assets\Scripts\Moves\Future_Sight.cs" />
+     <Compile Include="Assets\Scripts\Moves\Growl.cs" />
+     <Compile Include="Assets\Scripts\Moves\Growth.cs" />
+     <Compile Include="Assets\Scripts\Moves\Guard_Swap.cs" />
+     <Compile Include="Assets\Scripts\Moves\Heat_Wave.cs" />
+     <Compile Include="Assets\Scripts\Moves\Hydro_Pump.cs" />
+     <Compile Include="Assets\Scripts\Moves\Inferno.cs" />
+     <Compile Include="Assets\Scripts\Moves\Iron_Defense.cs" />
+     <Compile Include="Assets\Scripts\Moves\Leech_Seed.cs" />
+     <Compile Include="Assets\Scripts\Moves\Mist.cs" />
+     <Compile Include="Assets\Scripts\Moves\Move.cs" />
+     <Compile Include="Assets\Scripts\Moves\Petal_Blizzard.cs" />
+     <Compile Include="Assets\Scripts\Moves\Petal_Dance.cs" />
+     <Compile Include="Assets\Scripts\Moves\Poison_Powder.cs" />
+     <Compile Include="Assets\Scripts\Moves\Power_Swap.cs" />
+     <Compile Include="Assets\Scripts\Moves\Protect.cs" />
+     <Compile Include="Assets\Scripts\Moves\Psych_Up.cs" />
+     <Compile Include="Assets\Scripts\Moves\Psychic.cs" />
+     <Compile Include="Assets\Scripts\Moves\Psycho_Cut.cs" />
+     <Compile Include="Assets\Scripts\Moves\Psystrike.cs" />
+     <Compile Include="Assets\Scripts\Moves\Rain_Dance.cs" />
+     <Compile Include="Assets\Scripts\Moves\Rapid_Spin.cs" />
+     <Compile Include="Assets\Scripts\Moves\Razor_Leaf.cs" />
+     <Compile Include="Assets\Scripts\Moves\Recover.cs" />
+     <Compile Include="Assets\Scripts\Moves\Safeguard.cs" />
+     <Compile Include="Assets\Scripts\Moves\Scary_Face.cs" />
+     <Compile Include="Assets\Scripts\Moves\Scratch.cs" />
+     <Compile Include="Assets\Scripts\Moves\Shadow_Claw.cs" />
+     <Compile Include="Assets\Scripts\Moves\Skull_Bash.cs" />
+     <Compile Include="Assets\Scripts\Moves\Slash.cs" />
+     <Compile Include="Assets\Scripts\Moves\Sleep_Powder.cs" />
+     <Compile Include="Assets\Scripts\Moves\Smokescreen.cs" />
+     <Compile Include="Assets\Scripts\Moves\Solar_Beam.cs" />
+     <Compile Include="Assets\Scripts\Moves\StatusEffect.cs" />
+     <Compile Include="Assets\Scripts\Moves\String_Shot.cs" />
+     <Compile Include="Assets\Scripts\Moves\Sweet_Scent.cs" />
+     <Compile Include="Assets\Scripts\Moves\Swift.cs" />
+     <Compile Include="Assets\Scripts\Moves\Synthesis.cs" />
+     <Compile Include="Assets\Scripts\Moves\Tackle.cs" />
+     <Compile Include="Assets\Scripts\Moves\Tail_Whip.cs" />
+     <Compile Include="Assets\Scripts\Moves\Take_Down.cs" />
+     <Compile Include="Assets\Scripts\Moves\Vine_Whip.cs" />
+     <Compile Include="Assets\Scripts\Moves\Water_Gun.cs" />
+     <Compile Include="Assets\Scripts\Moves\Water_Pulse.cs" />
+     <Compile Include="Assets\Scripts\Moves\Wing_Attack.cs" />
+     <Compile Include="Assets\Scripts\Moves\Withdraw.cs" />
+     <Compile Include="Assets\Scripts\Moves\Worry_Seed.cs" />
+     <Compile Include="Assets\Scripts\ParticleAttraction.cs" />
+     <Compile Include="Assets\Scripts\Player\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Player\NetworkPlayer.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerCharacter.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerPokemonData.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerPokemonInventory.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerPokemonRoster.cs" />
+     <Compile Include="Assets\Scripts\Player\ThrowPokeBall.cs" />
+     <Compile Include="Assets\Scripts\Player\_Flight.cs" />
+     <Compile Include="Assets\Scripts\Pokemon\Genders.cs" />
+     <Compile Include="Assets\Scripts\Pokemon\NetworkPokemon.cs" />
+     <Compile Include="Assets\Scripts\Pokemon\OverHeadInformation.cs" />
+     <Compile Include="Assets\Scripts\Pokemon\Pokemon.cs" />
+     <Compile Include="Assets\Scripts\Pokemon\PokemonInput.cs" />
+     <Compile Include="Assets\Scripts\Pokemon\PokemonTypes.cs" />
+     <Compile Include="Assets\Scripts\Pokemon\ReSpawner.cs" />
+     <Compile Include="Assets\Scripts\Pokemon\WildPokemonAI.cs" />
+     <Compile Include="Assets\Scripts\Pokemon\WildPokemonSpawner.cs" />
+     <Compile Include="Assets\Scripts\Pokemon\_FlyingPokemon.cs" />
+     <Compile Include="Assets\Scripts\SFX\AirSlashEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\DragonRageEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\EmberEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\ExplosionEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\FireSpinEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\FlameBurstEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\FloatingDamage.cs" />
+     <Compile Include="Assets\Scripts\SFX\GrowlEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\InfernoEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\Laser.cs" />
+     <Compile Include="Assets\Scripts\SFX\Lightning.cs" />
+     <Compile Include="Assets\Scripts\SFX\LightningCreator.cs" />
+     <Compile Include="Assets\Scripts\SFX\ParticleSpiralEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\RazorLeafEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\ScaryFaceEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\SeedEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\SmokescreenEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\SolarBeamEffect.cs" />
+     <Compile Include="Assets\Scripts\SFX\TrailEffect.cs" />
+     <Compile Include="Assets\Scripts\Unattached\BattleCalculations.cs" />
+     <Compile Include="Assets\Scripts\Unattached\CalculateCapture.cs" />
+     <Compile Include="Assets\Scripts\Unattached\CalculateXP.cs" />
+     <Compile Include="Assets\Scripts\Unattached\HateHolder.cs" />
+     <Compile Include="Assets\Scripts\Unattached\IncreaseExperience.cs" />
+     <Compile Include="Assets\Scripts\Unattached\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Unattached\PlayerPrefsX.cs" />
+     <Compile Include="Assets\Scripts\Unattached\StatCalculations.cs" />
+     <Compile Include="Assets\Scripts\Unattached\_ChooseSpawnPoint.cs" />
+     <None Include="Assets\Imports\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\AspectSphereShader.shader" />
+     <None Include="Assets\Imports\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicBlender.shader" />
+     <None Include="Assets\Imports\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\VisualSensorLineShader.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\NavMeshContourShader.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\WaypointShader.shader" />
+     <None Include="Assets\Imports\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+     <None Include="Assets\Imports\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Imports\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Imports\Fantasy Skybox FREE\Readme\Readme.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\VisualSensorRingShader.shader" />
+     <None Include="Assets\RAIN\ReleaseNotes.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\NavMeshColliderShader.shader" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N">
+ <HintPath>C:/Users/Public/Documents/Unity Projects/PokemonWorld3D/Assets/Plugins/I18N.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.West">
+ <HintPath>C:/Users/Public/Documents/Unity Projects/PokemonWorld3D/Assets/Plugins/I18N.West.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/Public/Documents/Unity Projects/PokemonWorld3D/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="RAIN">
+ <HintPath>C:/Users/Public/Documents/Unity Projects/PokemonWorld3D/Assets/RAIN/RAIN.dll</HintPath>
+ </Reference>
+ <Reference Include="RAINMetaform">
+ <HintPath>C:/Users/Public/Documents/Unity Projects/PokemonWorld3D/Assets/RAIN/RAINMetaform.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{846122AD-A0C3-E8C5-9314-F7B5A25CA85C}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
